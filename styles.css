@@ -1,6 +1,32 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: auto;
+}
+/* HEADER */
+
+.header-content {
+	margin: 10px;
+}
+
+/* MORE INFO */
+
+.more-info {
+	height: 650px;
+}
+
+.more-info .container {
+	max-width: 720px; 
+	margin:auto;
+	height: 650px;
+}
+
+.more-info .portrait {
+	float: left;
 }
