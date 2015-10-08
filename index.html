@@ -6,35 +6,41 @@
     <title>WATS1010 Basic CSS Assignment</title>
     <meta name="description" content="WATS1010 Basic CSS Assignment.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Esteban' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="page-header">
+		<div class="container">
 		<div class="header-content">
         <h1>Kubla Khan <small>(1816)</small></h1>
         <p>by Samuel Taylor Coleridge</p>
+		</div>
+		<ul class="social-links">
+			<li><a href="http://facebook.com">Facebook</a></li>
+			<li><a href="http://twitter.com">Twitter</a></li>
+			<li><a href="http://instagram.com">Instagram</a></li>
+		</ul>
 		</div>
     </header>
     <aside class="more-info">
 		<div class="container">
 			<div class="portrait">
-				<img src="images/coleridge.jpg" alt="Samuel Taylor Coleridge portrait" />
-				<p class="pic-title">
+				<img src="images/coleridge.jpg" height="301px" width="220px" alt="Samuel Taylor Coleridge portrait" />
+			</div>
+			<div class="more-info-content">
+			<h2>More Information</h2>
+			<p class="pic-title">
 					For more information about Samuel Taylor Coleridge, check out
 					these resources:
-				</p>
-			</div>
-			<h2>More Information</h2>
+			</p>
 			<ul class="info-links">
 				<li><a href="http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge">Wikipedia Page</a></li>
 				<li><a href="http://www.poets.org/poetsorg/poet/samuel-taylor-coleridge">Academy of Poets Page</a></li>
 				<li><a href="http://www.poets.org/poetsorg/poem/rime-ancient-mariner">Rime of the Ancient Mariner</a></li>
 			</ul>
-			<ul class="social-links">
-				<li><a href="http://facebook.com">Facebook</a></li>
-				<li><a href="http://twitter.com">Twitter</a></li>
-				<li><a href="http://instagram.com">Instagram</a></li>
-			</ul>
+			</div>
 		</div>
     </aside>
     <section id="content">
@@ -96,17 +102,16 @@
             <li>For he on honey-dew hath fed</li>
             <li>And drunk the milk of Paradise.</li>
         </ul>
-        <footer class="content-footer">
+    </section>
+	<div class="footer-box">
+	 <footer class="content-footer">
             <p class="citation">
                 Poem text provided by
                 <a href="http://www.public-domain-poetry.com/samuel-taylor-coleridge/kubla-khan-7339">
                     Public Domain Poetry
                 </a>.
             </p>
-        </footer>
-    </section>
-    <footer class="page-footer">
-        <p class="citation">
+			 <p class="citation">
             Images and text on this page taken from Wikipedia:
             <ul>
                 <li>
@@ -118,6 +123,8 @@
                 </li>
             </ul>
         </p>
+    </footer>
+    <footer class="page-footer">
         <p class="citation">
             Additional resources provided that may or may not be used on this page:
             <ul>
@@ -140,6 +147,7 @@
                     </a>
                 </li>
             </ul>
+		</div>
         <p class="page-credits">
             &copy; JANE STUDENT, 2015. This page was made for <a href="http://webdev.seattleu.edu/courses.html">WATS1010: Introduction to Web Development</a>.
         </p>

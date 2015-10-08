@@ -6,27 +6,102 @@
 	padding: 0;
 }
 
+
 body {
-	margin: auto;
+	margin: 0 auto;
+	max-width: 1024px;
+	font-family: "Esteban", serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2 {
+	font-family: 'Playfair Display SC', cursive;
+	text-transform: uppercase;
+	
 }
 /* HEADER */
+
+.page-header .container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
 
 .header-content {
 	margin: 10px;
 }
 
-/* MORE INFO */
+.social-links li {
+	display: inline-block;
+}
+
+.social-links a {
+	color: #000;
+}
+
+div.header-content {
+	text-align: center;
+}
+
+ul.social-links {
+	text-align: center;
+	margin: 8px 0 50px;
+}
+
+.header-content h1 {
+	font-size: 2em;
+}
+/* ASIDE */
 
 .more-info {
-	height: 650px;
-}
-
-.more-info .container {
-	max-width: 720px; 
-	margin:auto;
-	height: 650px;
-}
-
-.more-info .portrait {
+	width: 240px;
+	padding: 10px;
 	float: left;
 }
+
+.portrait {
+	width: 220px;
+	margin: 0 auto;
+}
+
+.portrait img {
+	box-shadow: 3px 3px 3px #ccc;
+}
+
+/* CONTENT */
+
+#content {
+	width: 72%;
+	float: right;
+}
+
+#content {
+	text-align: center;
+}
+
+/* FOOTER */
+
+.footer-box {
+	clear: both;
+	height: 150px;
+}
+
+.footer-box .content-footer {
+	float: left;
+}
+
+.footer-box .page-footer {
+	float: right;
+}
+.content-footer, .page-footer {
+	width: 50%;
+}
+
+/* CREDITS */
+
