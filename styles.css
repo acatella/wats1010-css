@@ -8,6 +8,9 @@
 
 html {
 	background: #F2F1ED;
+	background-image: url(images/white-paper-bg.png);
+	background-attachment: fixed;
+	background-size: cover;
 }
 body {
 	margin: 0 auto;
@@ -149,7 +152,7 @@ ul.info-links li, .page-footer li, .content-footer li {
 .footer-box {
 	clear: both;
 	height: 150px;
-	background: #AFA8A2;
+	background: rgba(175, 168, 162, .5);
 	padding: 10px;
 	border-radius: 10px;
 }
@@ -168,7 +171,7 @@ ul.info-links li, .page-footer li, .content-footer li {
 /* CREDITS */
 
 p.page-credits {
-	background: #AFA8A2;
+	background: rgba(175, 168, 162, .5);
 	margin: 10px 0;
 	padding: 10px;
 	border-radius: 10px;
